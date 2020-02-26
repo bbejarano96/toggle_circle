@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 350%;
+  }
+
+  .square-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 300px;
+  }
+
+  .btn-wrapper {
+    display: flex;
+    width: 50vh;
+    justify-content: space-between;
+  }
+
+  #square {
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+    height: 20vh;
+    width: 20vh;
+    background: black;
+  }
+
+  #btn-square,
+
+  #btn-refresh {
+    padding: 5px;
+  	border: 1px solid gray;
+  	font-size: 0.9rem;
+  	margin-bottom: 6px;
+  	background-color: black;
+  	color: white;
+  }
